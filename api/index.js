@@ -11,8 +11,8 @@ app.use(express.json());
 let events = [
   {
     id: 1,
-    title: "Tech Conference 2024",
-    date: "2024-09-15",
+    title: "Tech Conference 2025",
+    date: "2025-09-15",
     description: "The biggest tech conference of the year featuring industry leaders.",
     availableSeats: 50,
     totalSeats: 100,
@@ -20,8 +20,8 @@ let events = [
   },
   {
     id: 2,
-    title: "Music Festival",
-    date: "2024-10-20",
+    title: "Music Festival 2025",
+    date: "2025-10-20",
     description: "A weekend of live music, food, and fun.",
     availableSeats: 120,
     totalSeats: 500,
@@ -30,7 +30,7 @@ let events = [
   {
     id: 3,
     title: "Art Gallery Opening",
-    date: "2024-11-05",
+    date: "2025-11-05",
     description: "Exclusive viewing of modern art masterpieces.",
     availableSeats: 5,
     totalSeats: 30,

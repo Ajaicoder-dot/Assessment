@@ -10,7 +10,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 // API Client
 const api = axios.create({
-    baseURL: import.meta.env.VITE_API_URL || 'http://localhost:3001',
+    baseURL: 'https://assessment-a5sb.onrender.com',
 });
 
 function App() {
