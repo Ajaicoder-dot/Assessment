@@ -1,0 +1,28 @@
+Subject: Assessment Submission - Event Booking Application
+
+Hi,
+
+Here are the details for my Event Booking Application assessment submission.
+
+**1. Live Application URLs**
+- **Frontend (Netlify)**: https://visionary-hamster-014988.netlify.app/
+- **Backend (Render)**: https://assessment-a5sb.onrender.com
+
+**2. Source Code**
+- **GitHub Repository**: https://github.com/Ajaicoder-dot/Assessment.git
+
+**3. Application Overview**
+- **Tech Stack**: React, Vite, Tailwind CSS, Node.js, Express.
+- **Features**: 
+    - Real-time seat availability updates.
+    - Responsive premium design with glassmorphism effects.
+    - Prevents duplicate bookings (same email per event).
+    - Client-side form validation.
+    - Deployed on Netlify and Render.
+
+The generic "Tech Conference", "Music Festival", and "Art Gallery" events are pre-loaded for demonstration.
+
+Please let me know if you need any further information.
+
+Best regards,
+[Your Name]

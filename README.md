@@ -52,6 +52,12 @@ The frontend application will start on [http://localhost:5173](http://localhost:
 4. Start command: `node index.js`
 5. **Environment Variables**: Ensure `PORT` is handled (default 3001).
 
+## Live Deployment
+
+- **Frontend (Netlify)**: [https://visionary-hamster-014988.netlify.app/](https://visionary-hamster-014988.netlify.app/)
+- **Backend (Render)**: [https://assessment-a5sb.onrender.com](https://assessment-a5sb.onrender.com)
+- **GitHub Repository**: [https://github.com/Ajaicoder-dot/Assessment](https://github.com/Ajaicoder-dot/Assessment)
+
 ## Features
 
 - **Real-time Availability**: Seats update immediately upon booking (simulated with React Query invalidation).

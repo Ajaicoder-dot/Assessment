@@ -11,8 +11,8 @@ app.use(express.json());
 let events = [
   {
     id: 1,
-    title: "Tech Conference 2025",
-    date: "2025-09-15",
+    title: "Tech Conference 2026",
+    date: "2026-09-15",
     description: "The biggest tech conference of the year featuring industry leaders.",
     availableSeats: 50,
     totalSeats: 100,
@@ -20,8 +20,8 @@ let events = [
   },
   {
     id: 2,
-    title: "Music Festival 2025",
-    date: "2025-10-20",
+    title: "Music Festival 2026",
+    date: "2026-10-20",
     description: "A weekend of live music, food, and fun.",
     availableSeats: 120,
     totalSeats: 500,
@@ -30,7 +30,7 @@ let events = [
   {
     id: 3,
     title: "Art Gallery Opening",
-    date: "2025-11-05",
+    date: "2026-11-05",
     description: "Exclusive viewing of modern art masterpieces.",
     availableSeats: 5,
     totalSeats: 30,
@@ -38,13 +38,12 @@ let events = [
   }
 ];
 
-// Bookings store to prevent duplicates
-// Format: { eventId: [email1, email2, ...] }
+
 const bookings = {};
 
-// Routes
+
 app.get('/events', (req, res) => {
-  // Simulate network delay for realistic loading state
+
   setTimeout(() => {
     res.json(events);
   }, 1000);
